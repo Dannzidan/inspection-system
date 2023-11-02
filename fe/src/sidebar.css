@@ -1,0 +1,61 @@
+.menu {
+    background-color: white;
+    color: white;
+    width: 210px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .sidebar-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-label {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+  }
+  
+  .menu-link:hover {
+    background-color: #555;
+  }
+
+  .menu-link.active {
+    background-color: #000080;
+    color: #fff; 
+  }
+  
+  .button.is-danger.is-outlined {
+    width: 100%;
+    color: #ff3860;
+    border-color: #ff3860;
+    margin-top: 20px;
+  }
+  
+  .button.is-danger.is-outlined:hover {
+    background-color: #ff3860;
+    color: white;
+  }
+  
+  /* Adjust styles for nested lists (Admin section) */
+  .menu-list ul {
+    margin-left: 20px;
+  }
+  

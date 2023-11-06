@@ -1,0 +1,5 @@
+/* Permanent hover effect for active menu items */
+.menu-list .active-hover {
+  background-color: #f0f0f0; /* Change to your desired background color */
+  color: #333; /* Change to your desired text color */
+}
